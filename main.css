@@ -913,6 +913,12 @@ body * {
   padding: 0;
   margin: 0;
 }
+body.vincent {
+  background-image: url('img/body-vincent.jpg');
+  background-position: center left;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .homepage {
   max-width: 900px;
   margin-left: auto;
@@ -999,6 +1005,34 @@ body * {
   font-size: 18px;
   font-family: 'Bangers', sans-serif;
 }
+.homepage .header.vincent {
+  border-right-color: yellowgreen;
+}
+.homepage .header.vincent h1 span {
+  color: yellowgreen;
+}
+.homepage .header.vincent .character .info .money {
+  font-size: 18px;
+  color: yellowgreen;
+}
+.homepage .section__soundtrack {
+  margin-bottom: 24px;
+  background-color: white;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.homepage .section__soundtrack h2 {
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Bangers', sans-serif;
+  letter-spacing: 4px;
+}
+.homepage .section__soundtrack audio {
+  width: 100%;
+}
 .homepage .section__points {
   background-color: white;
   padding: 24px;
@@ -1019,6 +1053,31 @@ body * {
 .homepage .section__points .cover {
   width: 500px;
   max-width: 100%;
+}
+.homepage .section__points.vincent .current .points {
+  color: yellowgreen;
+}
+.homepage .section__points.vincent .cover {
+  width: 300px;
+}
+.homepage .section__explanation {
+  background-color: white;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.homepage .section__explanation p {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  font-size: 48px;
+  text-align: left;
+  font-family: 'Bangers', sans-serif;
+  line-height: 1.5;
+}
+.homepage .section__explanation p span {
+  color: yellowgreen;
 }
 .homepage .section__rewards {
   background-color: white;
@@ -1151,7 +1210,7 @@ body * {
   letter-spacing: 3px;
 }
 .homepage .section__tasks .footer {
-  width: 500px;
+  width: 400px;
   max-width: 100%;
 }
 .homepage .section__history {
@@ -1190,4 +1249,18 @@ body * {
   font-size: 14px;
   font-weight: 600;
   font-style: italic;
+}
+.homepage .section__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homepage .section__footer .button {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.homepage .section__footer .button img {
+  width: 100px;
+  height: 100px;
 }
