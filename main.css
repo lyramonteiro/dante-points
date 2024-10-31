@@ -1150,6 +1150,10 @@ body * {
   color: #E68B15;
   letter-spacing: 3px;
 }
+.homepage .section__tasks .footer {
+  width: 500px;
+  max-width: 100%;
+}
 .homepage .section__history {
   margin-bottom: 24px;
   background-color: white;
