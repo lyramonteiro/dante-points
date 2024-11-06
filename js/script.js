@@ -1,5 +1,5 @@
-const totalPoints = 4;
-const allPoints = 6;
+const totalPoints = 5;
+const allPoints = total points + 6;
 
 const totalPointsPlaceholders = document.querySelectorAll('.js--points-now');
 
